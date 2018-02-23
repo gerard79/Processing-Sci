@@ -1,0 +1,142 @@
+/*** PSI Theme here... */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+a {
+    color: #005cb2;
+}
+a, input {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+a:hover, input:hover {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.row.mt-3.mb-2 {
+    padding: 20px 0 16px;
+}
+.display-4 {
+    font-size: 2.8em;
+    font-weight: 500;
+    color: #333333;
+}
+.btn-primary {
+    background-color: #0077c2;
+    border-color: #0077c2;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #eca42c;
+    border-color: #eca42c;
+}
+
+.navbar {
+    background-color: #104590 !important;
+    border-bottom: 0;
+    box-shadow: unset;
+    min-height: 78px;
+    background: url('../img/top-bg.png') no-repeat scroll center center transparent;
+    background-size: cover;
+}
+.navbar-brand {
+    background: url('../img/processing-science-logo.png') no-repeat scroll 0 0 transparent;
+    text-indent: -9999px;
+    overflow: hidden;
+    width: 264px;
+    height: 44px;
+    padding: 0px;
+    margin: 0px;
+}
+.nav-item {
+    margin-right: 16px;
+}
+.navbar.navbar-dark .navbar-nav .nav-link i.fas, 
+.navbar.navbar-dark .navbar-nav .nav-link i.far {
+    color: rgba(8, 138, 214, 1.0);
+    font-size: 22px;
+}
+.fas.fa-home.fa-lg {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.text-embossed {
+    text-shadow: unset;
+}
+.text-muted {
+    color: #088ad6 !important;
+    margin: 12px 0 16px;
+}
+.btn-light:hover {
+    border: 1px solid #eca42c !important;
+}
+.btn-light:hover .text-muted {
+    color: #eca42c !important;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.text-primary {
+    color: #333333 !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+footer {
+    background-color: #eaeeef;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    
+    display: inline-block;
+    width: 100%;
+}
+footer > p {
+    color: #333333;
+    padding: 20px 0 0 0;
+    font-weight: 300;
+    font-size: 1.1em;
+    letter-spacing: 0.02em;
+}
+footer .list-inline a {
+    color: #104590;
+    font-size: 1.0em;
+    text-decoration: underline;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+
+}
+footer .list-inline a:hover {
+    text-decoration: none;
+}
+footer .list-inline a::after {
+    content: "|";
+    color: #999999;
+    padding-left: 18px;
+}
+footer ul li.list-inline-item:last-child a:after {
+    content: "";
+    padding-left: 0;
+}
+.pt-5, .py-5 {
+    padding-top: 0rem !important;
+}
+.mb-5, .my-5 {
+    margin-bottom: 0rem !important;
+}
+
+@media (min-width: 768px) {
+    .offset-md-2 {
+        margin-left: 0;
+    }
+}
